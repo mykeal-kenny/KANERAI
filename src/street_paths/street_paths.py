@@ -14,7 +14,7 @@ class UserMainCode(object):
 
 
 if __name__ == "__main__":
-    if len(sys.argv[]) < 2:
-        input1 = str(input().strip())
+    if len(sys.argv[1]) < 2:
+        input1 = int(input().strip())
 else:
     input1 = str(sys.argv[1].strip())
